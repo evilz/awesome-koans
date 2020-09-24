@@ -1,0 +1,24 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+	"name": "Ruby 2",
+	"dockerFile": "Dockerfile",
+
+	// Uncomment the next line if you want to publish any ports.
+	"appPort": [
+		//4567
+	],
+
+	// Uncomment the next line if you want to add in default container specific settings.json values
+	"settings":  {
+		"solargraph.useBundler": true,
+	},
+
+	// Uncomment the next line to run commands after the container is created.
+	// "postCreateCommand": "",
+
+	"extensions": [
+		"rebornix.Ruby",
+		"noku.rails-run-spec-vscode",
+		"castwide.solargraph"
+	]
+}
